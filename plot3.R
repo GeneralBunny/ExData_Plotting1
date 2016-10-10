@@ -1,5 +1,5 @@
 #Download and unzip the data
-plot1<-function(){
+plot3<-function(){
 rm(list=ls())
 if (!file.exists("./Week1Project")){dir.create("./Week1Project")}
 fileUrl<-"https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
